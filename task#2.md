@@ -41,7 +41,7 @@
 
 > Для виконання завдання з іконкою потрібно продумати логіку, як динамічно
 > відмалювати з бібліотеки
-> [**react-icons**](https://github.com/react-icons/react-icons) іконки та
+> [**react-icons**](import { GiTreeDoor } from "react-icons/gi";) іконки та
 > змінити дефолтний розмір
 
 ## Приклад використання
@@ -50,5 +50,5 @@
 import stats from 'data/stats.json';
 
 <Statistics title="Main Statistics" stats={stats} />;
-<Statistics stats={data} />;
+<Statistics stats={stats} />;
 ```
